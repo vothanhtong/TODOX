@@ -9,5 +9,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vothanhtong/TODOX.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vothanhtong/TODOX/issues"
+  },
+  "homepage": "https://github.com/vothanhtong/TODOX#readme"
 }
