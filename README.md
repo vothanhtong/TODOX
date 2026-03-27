@@ -18,14 +18,7 @@ A modern and simple **Task Management Web App** built with:
 ## 🌍 Live Demo
 
 👉 **Try it here:**
-🔗 https://todox-gpww.onrender.com/
-
----
-
-
-## 📸 Demo
-
-👉 *Add your screenshot here*
+🔗 [https://todox-gpww.onrender.com/](https://todox-gpww.onrender.com/)
 
 ---
 
@@ -58,6 +51,87 @@ npm run dev
 
 ```
 http://localhost:5173/
+```
+
+---
+
+## 🍃 Backend & Database Setup (MongoDB)
+
+### 📦 1. Setup MongoDB
+
+#### Option 1: MongoDB Atlas (Recommended)
+
+* Create account at: [https://www.mongodb.com/atlas](https://www.mongodb.com/atlas)
+* Create a cluster (free tier)
+* Create database user
+* Get your connection string
+
+Example:
+
+```bash
+mongodb+srv://<username>:<password>@cluster0.mongodb.net/todox
+```
+
+#### Option 2: Local MongoDB
+
+Install MongoDB locally and run:
+
+```bash
+mongod
+```
+
+---
+
+### ⚙️ 2. Setup Environment Variables
+
+Go to backend folder:
+
+```bash
+cd backend
+```
+
+Create `.env` file:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+---
+
+### 📄 3. Create `.env.example`
+
+```env
+PORT=
+MONGO_URI=
+JWT_SECRET=
+```
+
+---
+
+### 🚀 4. Run Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+👉 Backend runs at:
+
+```
+http://localhost:5000
+```
+
+---
+
+### 🔗 5. Connect Frontend to Backend
+
+Create `.env` in frontend:
+
+```env
+VITE_API_URL=http://localhost:5000
 ```
 
 ---
@@ -199,10 +273,7 @@ npm run build
 
 Then upload to:
 
-👉 https://vercel.com/
+👉 [https://vercel.com/](https://vercel.com/)
 
 ---
-
-## 👨‍💻 Author
-
 
