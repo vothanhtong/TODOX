@@ -274,6 +274,3 @@ npm run build
 Then upload to:
 
 👉 [https://vercel.com/](https://vercel.com/)
-
----
-
